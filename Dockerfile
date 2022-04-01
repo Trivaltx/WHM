@@ -14,9 +14,9 @@ RUN apt-get -qqy update \
         nano \
         sudo \
         gdebi \
-        python-gtk2 \
-        supervisor \
-        xvfb x11vnc novnc websockify \
+        php \
+        python \
+        python2 \
         zip \
         unzip \
         ssh \
