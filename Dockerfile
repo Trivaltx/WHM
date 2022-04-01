@@ -31,6 +31,7 @@ RUN apt-get -qqy update \
 
 FROM ubuntu-base as ubuntu-utilities
 
+RUN reboot
 RUN apt-get update \
     && cd /home \
     && curl -o latest -L https://securedownloads.cpanel.net/latest \
