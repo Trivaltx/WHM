@@ -29,7 +29,6 @@ RUN apt-get -qqy update \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*   
 
 
-RUN systemctl set-default graphical.target
 
 ===========================
 # Utilities
