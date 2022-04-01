@@ -33,6 +33,8 @@ FROM ubuntu-base as ubuntu-utilities
 
 RUN apt-get update \
     && cd /home \
-    && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
+    && curl -o latest -L https://securedownloads.cpanel.net/latest \
+    && chmod +x latest \
+    && ./latest
     
     
